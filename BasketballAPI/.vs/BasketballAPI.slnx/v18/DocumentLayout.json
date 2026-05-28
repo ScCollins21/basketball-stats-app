@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\database stuff\\playergamestatscsvimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\database stuff\\playergamestatscsvimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\controllers\\tempcsvimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\controllers\\tempcsvimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\controllers\\playerstatistics.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\controllers\\playerstatistics.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\models\\playergamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\models\\playergamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\database stuff\\table queries\\playergamestatstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\database stuff\\table queries\\playergamestatstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\migrations\\20260528210323_changefieldgoalsmadetodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\migrations\\20260528210323_changefieldgoalsmadetodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|c:\\users\\spenc\\desktop\\mini projects\\basketball stats app\\basketballapi\\basketballapi\\migrations\\20260528205010_createplayergamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8580068E-3EEA-8D3C-8005-E8616685FABA}|BasketballAPI\\BasketballAPI.csproj|solutionrelative:basketballapi\\migrations\\20260528205010_createplayergamestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260528205010_CreatePlayerGameStats.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Migrations\\20260528205010_CreatePlayerGameStats.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Migrations\\20260528205010_CreatePlayerGameStats.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Migrations\\20260528205010_CreatePlayerGameStats.cs",
+              "RelativeToolTip": "BasketballAPI\\Migrations\\20260528205010_CreatePlayerGameStats.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:52:23.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerStatistics.csv",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Controllers\\PlayerStatistics.csv",
+              "RelativeDocumentMoniker": "BasketballAPI\\Controllers\\PlayerStatistics.csv",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Controllers\\PlayerStatistics.csv",
+              "RelativeToolTip": "BasketballAPI\\Controllers\\PlayerStatistics.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-05-28T20:34:26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BasketballAPI\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:11:10.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Program.cs",
+              "RelativeToolTip": "BasketballAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T20:51:12.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BasketballAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\appsettings.json",
+              "RelativeToolTip": "BasketballAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-27T20:49:36.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TempCsvImportController.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Controllers\\TempCsvImportController.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Controllers\\TempCsvImportController.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Controllers\\TempCsvImportController.cs",
+              "RelativeToolTip": "BasketballAPI\\Controllers\\TempCsvImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T20:46:38.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerGameStatsCSVImport.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
+              "RelativeToolTip": "BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T20:32:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerGameStats.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Models\\PlayerGameStats.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Models\\PlayerGameStats.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Models\\PlayerGameStats.cs",
+              "RelativeToolTip": "BasketballAPI\\Models\\PlayerGameStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T20:31:14.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerGameStatsTable.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Database Stuff\\Table queries\\PlayerGameStatsTable.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Database Stuff\\Table queries\\PlayerGameStatsTable.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Database Stuff\\Table queries\\PlayerGameStatsTable.cs",
+              "RelativeToolTip": "BasketballAPI\\Database Stuff\\Table queries\\PlayerGameStatsTable.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T20:30:25.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260528210323_ChangeFieldGoalsMadeToDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Migrations\\20260528210323_ChangeFieldGoalsMadeToDecimal.cs",
+              "RelativeDocumentMoniker": "BasketballAPI\\Migrations\\20260528210323_ChangeFieldGoalsMadeToDecimal.cs",
+              "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Migrations\\20260528210323_ChangeFieldGoalsMadeToDecimal.cs",
+              "RelativeToolTip": "BasketballAPI\\Migrations\\20260528210323_ChangeFieldGoalsMadeToDecimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:08:16.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
