@@ -1,0 +1,6 @@
+.search-container input {
+    padding: 0.5rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
