@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj": {}
+    "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj": {
+    "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj",
+        "projectUniqueName": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj",
         "projectName": "BasketballAPI",
-        "projectPath": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj",
+        "projectPath": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\BasketballAPI.csproj",
         "packagesPath": "C:\\Users\\spenc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\obj\\",
+        "outputPath": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

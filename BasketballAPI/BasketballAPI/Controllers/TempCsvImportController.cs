@@ -1,4 +1,4 @@
-﻿using BasketballAPI;
+using BasketballAPI;
 using BasketballAPI.Database_Stuff;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,7 +18,7 @@ public class ImportController : ControllerBase
     {
         var importer = new CsvImporter(_context);
 
-        await importer.ImportCsvAsync("C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\BasketballAPI\\BasketballAPI\\Controllers\\PlayerStatistics.csv");
+        await importer.ImportCsvAsync("C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\Controllers\\PlayerStatistics.csv");
 
         return Ok("Import complete");
     }

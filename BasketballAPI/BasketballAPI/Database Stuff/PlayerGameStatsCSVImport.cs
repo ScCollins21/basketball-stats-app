@@ -1,4 +1,4 @@
-﻿using BasketballAPI.Models;
+using BasketballAPI.Models;
 using CsvHelper;
 using CsvHelper.Configuration;
 using CsvHelper.TypeConversion;
@@ -38,7 +38,7 @@ namespace BasketballAPI.Database_Stuff
             Map(m => m.Win).Name("win");
             Map(m => m.Home).Name("home");
 
-            Map(m => m.NumMinutes).Name("numMinutes");
+            Map(m => m.NumMinutes).Name("numMinutes").TypeConverter<NumMinutesConverter>();
 
             Map(m => m.Points).Name("points");
             Map(m => m.Assists).Name("assists");
@@ -92,7 +92,31 @@ namespace BasketballAPI.Database_Stuff
         }
     }
 
-    public class CsvImporter
+  public class NumMinutesConverter : DefaultTypeConverter
+  {
+    public override object ConvertFromString(string text, IReaderRow row, MemberMapData memberMapData)
+    {
+      if (string.IsNullOrWhiteSpace(text))
+        return null;
+
+      // Splits like this ex. "12:34" into ["12", "34"] and converts to 12 + (34/60) = 12.5667
+      var parts = text.Split(':');
+
+      if (parts.Length == 2 && // Check if the output is in the expected format
+            int.TryParse(parts[0], out var minutes) &&
+            int.TryParse(parts[1], out var seconds))
+      {
+        return minutes + (seconds / 60.0m);
+      }
+
+      if (decimal.TryParse(text, out var dec))
+        return dec;
+
+      return null;
+    }
+  }
+
+  public class CsvImporter
     {
         private readonly ApplicationDbContext _context;
 
