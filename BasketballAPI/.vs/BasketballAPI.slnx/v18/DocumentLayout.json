@@ -74,8 +74,7 @@
               "RelativeToolTip": "BasketballAPI\\Controllers\\PlayerStatistics.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-05-28T20:34:26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:34:26Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "BasketballAPI\\Controllers\\TempCsvImportController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T20:46:38.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T20:46:38.718Z"
             },
             {
               "$type": "Document",
@@ -134,7 +132,7 @@
               "RelativeDocumentMoniker": "BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
               "ToolTip": "C:\\Users\\spenc\\Desktop\\Mini Projects\\Basketball Stats App\\basketball-stats-app\\BasketballAPI\\BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
               "RelativeToolTip": "BasketballAPI\\Database Stuff\\PlayerGameStatsCSVImport.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAYwHMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAzwHMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T20:32:21.84Z",
               "EditorCaption": ""
@@ -149,8 +147,7 @@
               "RelativeToolTip": "BasketballAPI\\Models\\PlayerGameStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T20:31:14.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T20:31:14.36Z"
             },
             {
               "$type": "Document",
