@@ -1,4 +1,4 @@
-﻿namespace BasketballAPI.Models
+namespace BasketballAPI.Models
 {
     public class PlayerGameStats
     {

@@ -1,4 +1,4 @@
-﻿namespace BasketballAPI;
+namespace BasketballAPI;
 using BasketballAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,4 +10,5 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<PlayerGameStats> PlayerGameStats { get; set; }
+    public DbSet<Player> Player { get; set; }
 }

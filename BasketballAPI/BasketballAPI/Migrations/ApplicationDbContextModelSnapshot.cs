@@ -22,6 +22,76 @@ namespace BasketballAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BasketballAPI.Models.Player", b =>
+                {
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("BodyWeightLbs")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Center")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DLeagueFlag")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftRound")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftYear")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Forward")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FromYear")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("GamesPlayedFlag")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Guard")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("HeightInches")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Jersey")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("NbaFlag")
+                        .HasColumnType("int");
+
+                    b.Property<string>("School")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ToYear")
+                        .HasColumnType("int");
+
+                    b.HasKey("PersonId");
+
+                    b.ToTable("Player");
+                });
+
             modelBuilder.Entity("BasketballAPI.Models.PlayerGameStats", b =>
                 {
                     b.Property<int>("Id")

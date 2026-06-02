@@ -116,7 +116,7 @@ namespace BasketballAPI.Database_Stuff
     }
   }
 
-  public class CsvImporter
+    public class CsvImporter
     {
         private readonly ApplicationDbContext _context;
 
