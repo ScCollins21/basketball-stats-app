@@ -14,11 +14,17 @@ var allowedOrigins = builder.Configuration.GetValue<string>("allowedOrigins")!.S
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins(allowedOrigins).AllowAnyHeader().AllowAnyMethod();
-    });
+  options.AddPolicy("AllowAll", policy =>
+  {
+    policy.AllowAnyOrigin()
+          .AllowAnyMethod()
+          .AllowAnyHeader();
+  });
 });
+
+// Make sure this is BEFORE app.MapControllers()
+
+
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
@@ -32,7 +38,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+app.UseCors("AllowAll");
+// app.UseHttpsRedirection(); Needs to be reactivated if in production environment.
 
 app.UseCors();
 
