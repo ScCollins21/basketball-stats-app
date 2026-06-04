@@ -1,10 +1,21 @@
-<body>
-    <main>
+<main>
         <section class="hero">
             <h1>Welcome to Basketball Stats</h1>
             <p>
                 This is where daily best player stats will be displayed. As well as game outcomes for the day.
             </p>
+            <p>
+                The Goat: Lebron James Regular Season Averages:
+                
+            </p>
+            <p>
+                {{playerStats?.pointsPerGame| number:'1.0-1'}} PPG
+            </p>
+            <p>
+                {{playerStats?.assistsPerGame| number:'1.0-1'}} APG
+            </p>
+            <p>
+                {{playerStats?.reboundsPerGame| number:'1.0-1'}} RPG
+            </p>
         </section>
-    </main>
-</body>
+</main>
