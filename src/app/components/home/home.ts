@@ -13,9 +13,11 @@ export class Home {
 
   playerService = inject(BasketballApi);
   playerStats: PlayerStatsAverages | undefined;
+  playerImageUrl: string | undefined;
 
 
   ngOnInit() {
+    this.playerImageUrl = this.playerService.getPlayerImage(2544);
     this.playerService.getPlayerById(2544).subscribe(stats => {
       this.playerStats = stats;
       console.log('Player stats fetched successfully:', stats);

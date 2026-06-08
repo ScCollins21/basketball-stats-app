@@ -15,4 +15,8 @@ export class BasketballApi {
   public getPlayerById(playerId: number): Observable<PlayerStatsAverages> { // Fetch player stats by ID from Basketball API
     return this.http.get<PlayerStatsAverages>(`${this.apiUrl}/playerstats/playerstats/${playerId}`);
   }
+
+  public getPlayerImage(playerId: number): string{
+    return "https://cdn.nba.com/headshots/nba/latest/1040x760/" + playerId + ".png"; // Returns the URL for the player's image based on their ID
+  }
 }

@@ -32,3 +32,9 @@ main {
 .hero p {
     color: #666;
 }
+
+img {
+    width: 200px;
+    height: auto;
+    /* maintains aspect ratio */
+}
