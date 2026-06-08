@@ -2,11 +2,37 @@
   {
     "ContainingType": "ImportController",
     "Method": "Import",
-    "RelativePath": "api/Import",
+    "RelativePath": "api/Import/import",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImportController",
+    "Method": "ImportPlayer",
+    "RelativePath": "api/Import/importPlayers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketballAPI.Controllers.PlayerStatsController",
+    "Method": "PlayerStatsCareerAvgs",
+    "RelativePath": "api/playerstats/PlayerStats/{playerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

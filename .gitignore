@@ -44,3 +44,4 @@ __screenshots__/
 Thumbs.db
 .PlayerStatistics.csv
 BasketballAPI/BasketballAPI/Controllers/PlayerStatistics.csv
+BasketballAPI/BasketballAPI/Controllers/Players.csv

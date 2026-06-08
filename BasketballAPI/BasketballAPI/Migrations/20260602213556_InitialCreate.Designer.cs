@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BasketballAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260528210421_ChangeThreePointersMadeToDecimal")]
-    partial class ChangeThreePointersMadeToDecimal
+    [Migration("20260602213556_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,76 @@ namespace BasketballAPI.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("BasketballAPI.Models.Player", b =>
+                {
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("BodyWeightLbs")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Center")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DLeagueFlag")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftRound")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DraftYear")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Forward")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FromYear")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("GamesPlayedFlag")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Guard")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("HeightInches")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Jersey")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("NbaFlag")
+                        .HasColumnType("int");
+
+                    b.Property<string>("School")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ToYear")
+                        .HasColumnType("int");
+
+                    b.HasKey("PersonId");
+
+                    b.ToTable("Player");
+                });
 
             modelBuilder.Entity("BasketballAPI.Models.PlayerGameStats", b =>
                 {
@@ -56,14 +126,14 @@ namespace BasketballAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("FoulsPersonal")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("FoulsPersonal")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("FreeThrowsAttempted")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("FreeThrowsAttempted")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("FreeThrowsMade")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("FreeThrowsMade")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal?>("FreeThrowsPercentage")
                         .HasColumnType("decimal(18,2)");
@@ -110,7 +180,7 @@ namespace BasketballAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PersonId")
+                    b.Property<int?>("PersonId")
                         .HasColumnType("int");
 
                     b.Property<string>("PlayerTeamCity")
@@ -124,20 +194,20 @@ namespace BasketballAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("PlusMinusPoints")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("PlusMinusPoints")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal?>("Points")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("ReboundsDefensive")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("ReboundsDefensive")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("ReboundsOffensive")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("ReboundsOffensive")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("ReboundsTotal")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("ReboundsTotal")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("SeriesGameNumber")
                         .HasColumnType("int");
@@ -158,8 +228,8 @@ namespace BasketballAPI.Migrations
                     b.Property<decimal?>("ThreePointersPercentage")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("Turnovers")
-                        .HasColumnType("int");
+                    b.Property<decimal?>("Turnovers")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("Win")
                         .HasColumnType("int");

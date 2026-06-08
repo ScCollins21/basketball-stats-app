@@ -312,10 +312,10 @@ C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\B
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\Basketba.E44C48E0.Up2Date
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\BasketballAPI.dll
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\refint\BasketballAPI.dll
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\BasketballAPI.pdb
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\BasketballAPI.genruntimeconfig.cache
 C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\ref\BasketballAPI.dll
+C:\Users\spenc\Desktop\Mini Projects\Basketball Stats App\basketball-stats-app\BasketballAPI\BasketballAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

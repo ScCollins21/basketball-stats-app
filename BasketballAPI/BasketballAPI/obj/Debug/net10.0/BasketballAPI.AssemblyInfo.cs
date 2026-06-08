@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasketballAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9a597a0a7a0933bfb770d9a0d03d9239d8f7dbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7744dc98b9fe22ab5f07bcf623a5bfd535fb2514")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasketballAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasketballAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
