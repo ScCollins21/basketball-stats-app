@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './player-search-bar.html',
   styleUrl: './player-search-bar.css',
 })
-export class PlayerSearchBar {}
+export class PlayerSearchBar {
+
+  
+}

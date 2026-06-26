@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BasketballAPI.Controllers
 {
   [ApiController]
-  [Route("api/playerstats/[controller]")]
+  [Route("api/playerstats")]
   public class PlayerStatsController : ControllerBase
   {
     private readonly ApplicationDbContext _context;
@@ -16,7 +16,7 @@ namespace BasketballAPI.Controllers
       this._context = context;
     }
 
-    [HttpGet("{playerId}")]
+    [HttpGet("stataverages/{playerId}")]//update route in front end to match this route
     public async Task<IActionResult> PlayerStatsCareerAvgs(int playerId)
     {
 
@@ -37,5 +37,27 @@ namespace BasketballAPI.Controllers
 
       return Ok(averages);
     }
+
+    [HttpGet("byname/{playerName}")]
+    public async Task<IActionResult> PlayersByName(string playerName)
+    {
+      if (playerName == null)
+      {
+        return BadRequest("Player name cannot be null"); // Handle null entry for playerName
+      }
+
+      var averages = await _context.Player.Where(s => s.FirstName /**+ " " + s.LastName**/ == playerName).GroupBy(s => s.FirstName)
+        .Select(g => new
+        {
+          PlayerId = g.Key,
+          FirstName = g.Select(s => s.FirstName).First(),
+          LastName = g.Select(s => s.LastName).First(),
+          FromYear = g.Select(s => s.FromYear).First(),
+          ToYear = g.Select(s => s.ToYear).First()//Need to add handling for null because current players have a null to year
+        }).ToListAsync();
+
+      return Ok(averages);
+    }
+
   }
 }

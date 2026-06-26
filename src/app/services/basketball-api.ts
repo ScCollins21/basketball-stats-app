@@ -13,7 +13,7 @@ export class BasketballApi {
   private apiUrl = environment.playerStatsURL;
 
   public getPlayerById(playerId: number): Observable<PlayerStatsAverages> { // Fetch player stats by ID from Basketball API
-    return this.http.get<PlayerStatsAverages>(`${this.apiUrl}/playerstats/playerstats/${playerId}`);
+    return this.http.get<PlayerStatsAverages>(`${this.apiUrl}/playerstats/stataverages/${playerId}`);
   }
 
   public getPlayerImage(playerId: number): string{
