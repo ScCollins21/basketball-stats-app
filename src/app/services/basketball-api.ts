@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 import { Observable } from 'rxjs';
 import { PlayerStatsAverages } from '../models/player-stats-averages.models';
+import { PlayerSearchbar } from '../models/player-searchbar.models';
 
 @Injectable({
   providedIn: 'root',
@@ -14,6 +15,10 @@ export class BasketballApi {
 
   public getPlayerById(playerId: number): Observable<PlayerStatsAverages> { // Fetch player stats by ID from Basketball API
     return this.http.get<PlayerStatsAverages>(`${this.apiUrl}/playerstats/stataverages/${playerId}`);
+  }
+
+  public getPlayerByName(playerName: string): Observable<PlayerSearchbar[]> { // Fetch players by name from Basketball API
+    return this.http.get<PlayerSearchbar[]>(`${this.apiUrl}/playerstats/byname/${playerName}`);
   }
 
   public getPlayerImage(playerId: number): string{

@@ -46,17 +46,18 @@ namespace BasketballAPI.Controllers
         return BadRequest("Player name cannot be null"); // Handle null entry for playerName
       }
 
-      var averages = await _context.Player.Where(s => s.FirstName /**+ " " + s.LastName**/ == playerName).GroupBy(s => s.FirstName)
+      var players = await _context.Player.Where(s => (s.FirstName + " " + s.LastName).Contains(playerName)).GroupBy(s => s.PersonId)
         .Select(g => new
         {
           PlayerId = g.Key,
           FirstName = g.Select(s => s.FirstName).First(),
           LastName = g.Select(s => s.LastName).First(),
           FromYear = g.Select(s => s.FromYear).First(),
-          ToYear = g.Select(s => s.ToYear).First()//Need to add handling for null because current players have a null to year
-        }).ToListAsync();
+          ToYear = g.Select(s => s.ToYear).First()
+        }).OrderBy(p => p.LastName).ThenBy(p => p.FirstName).Take(8) //Order names and only get 8 results for now
+        .ToListAsync();
 
-      return Ok(averages);
+      return Ok(players);
     }
 
   }
