@@ -1,3 +1,11 @@
-<div class="search-container">
-    <input type="text" placeholder="Search players...">
-</div>
+<mat-form-field appearance="outline" class="player-search-field">
+    <mat-label>Search Player</mat-label>
+    <input type="text" matInput [formControl]="searchControl" [matAutocomplete]="auto">
+
+    <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let player of filteredPlayers" [value]="player.firstName" (click)="selectPlayer(player)">
+        <img [src]="player.playerImg" width="30" height="30">
+        {{ player.firstName }} {{ player.lastName }}
+        </mat-option>
+    </mat-autocomplete>
+</mat-form-field>

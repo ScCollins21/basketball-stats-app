@@ -4,4 +4,5 @@ export interface PlayerSearchbar {
     lastName: string;
     fromYear: number;
     toYear: number;
+    playerImg: string;
 }

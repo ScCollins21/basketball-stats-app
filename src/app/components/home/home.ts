@@ -22,9 +22,9 @@ export class Home {
       this.playerStats = stats;
       console.log('Player stats fetched successfully:', stats);
     });
-
+/** 
     this.playerService.getPlayerByName('Jalen').subscribe(players => {
       console.log('Players fetched successfully:', players);
-    });
+    });*/
   }
 }
